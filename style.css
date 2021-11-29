@@ -1,0 +1,55 @@
+body {
+  font-family: "Segoe UI";
+}
+
+.item {
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.item img {
+  height: 400px;
+}
+.img-caption {
+  background-color: #fff;
+  width: 80%;
+  bottom: 5%;
+  left: 10%;
+  padding: 10px;
+}
+
+#popUpContainer {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#popUpItemContainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+#popUpItem {
+  background-image: url(./pics/1.jpg);
+  width: 50%;
+  height: 500px;
+  background-size: cover;
+}
+
+#close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#popUpItem i {
+  font-size: 25px;
+  padding: 10px;
+  cursor: pointer;
+}
